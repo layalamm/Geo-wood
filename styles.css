@@ -1,0 +1,224 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: system-ui;
+}
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: black;
+
+}
+img.header__left__img {
+    height: 80px;
+    object-fit: cover;
+}
+span.header__right__item {
+    margin: 5px;
+    text-transform: capitalize;
+    font-size: 20px;
+    color: white
+}
+.backg{
+    background-image: url("http://geo-wood.com/wp-content/uploads/2022/04/1.jpg");
+    height: 400px;
+    background-repeat: no-repeat;
+    display :flex;
+    background-size: cover;
+    
+}
+h1.backg__header {
+    align-items: center;
+    display: flex;
+    width: 20PX;
+    margin: 30px;
+    
+    color: white;
+    font-size: 65px;
+}
+
+.about__left {
+    /*width: 550px;*/
+    font-size: 25px;
+}
+img.about__right__img {
+    height: 30;
+    height: 250px;
+}
+.about {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin: 50px;
+}
+h2.about__header {
+    text-transform: capitalize;
+    padding-bottom: 20px;
+    text-decoration: overline;
+}
+.mission {
+    background-image: url('http://geo-wood.com/wp-content/uploads/2022/04/mission-2.jpg');
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-size: 25px;
+}
+.box {
+    box-shadow: -1px 1px 16px -3px rgba(0,0,0,0.73);
+    -webkit-box-shadow: -1px 1px 16px -3px rgba(0,0,0,0.73);
+    -moz-box-shadow: -1px 1px 16px -3px rgba(0,0,0,0.73);
+    width: 300px;
+    height:300px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    border-radius: 10px;
+}
+.boxes {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin: 30px;
+}
+img.box__img {
+    width: 100px;
+    height: 100px;
+    object-fit: contain;
+}
+p.box__text {
+    FONT-SIZE: 25PX;
+    font-weight: bold;
+    color: brown;
+}
+h2.services {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    text-transform: capitalize;
+    color: brown;
+    text-decoration: overline;
+    font-size: 36px;
+    font-weight: bold;
+}
+.contact {
+    background-image: url('http://geo-wood.com/wp-content/uploads/2022/04/julian-hochgesang-psGV5KhidlY-unsplash.jpg');
+    height: 400px;
+    background-repeat: no-repeat;
+    display: flex;
+    background-size: cover;
+    background-position: center;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.contact__left {
+    color: white;
+    font-size: 30px;
+    align-items: center;
+    display: flex;
+    margin-left: 50px;
+}
+.contact__right {
+    color: white;
+    display: flex;
+    align-items: center;
+    height: 60px;
+    font-size: 50px;
+}
+span.contact__right__button {
+    border-radius: 10px;
+    background: brown;
+    padding: 10px;
+}
+.footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100px;
+    background-color: black;
+    margin-top: 30px;
+}
+span.footer__right__item {
+    margin: 5px;
+    font-size: 20px;
+    text-transform: capitalize;
+    color: white;
+}
+@media only screen and (max-width:700px){
+    .about {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+       
+        
+    }
+    .about__left {
+        /* width: 550px; */
+        font-size: 25px;
+    }
+    h2.about__header {
+        text-align: center;
+    }
+    .boxes {
+        display: flex;
+        flex-direction: column;
+    }
+    .box {
+        margin: 20px;
+    }
+    .contact {
+        display: flex;
+        flex-direction: column;
+    }
+    img.header__left__img {
+        height: 47px;
+        object-fit: cover;
+    }
+    span.header__right__item {
+        margin: 5px;
+        text-transform: capitalize;
+        font-size: 17px;
+        color: white;
+    }
+    .contact__left {
+        color: white;
+        font-size: 21px;
+        align-items: center;
+        display: flex;
+        margin-left: 50px;
+    }
+    span.contact__right__button {
+        border-radius: 10px;
+        background: brown;
+        font-size: 25px;
+        padding: 10px;
+    }
+    h1.backg__header {
+        align-items: center;
+        display: flex;
+        width: 20PX;
+        margin: 30px;
+        color: white;
+        font-size: 44px;
+    }
+    img.footer__left__img {
+        height: 49px;
+        object-fit: cover;
+    }
+    p.mission__text {
+        text-align: center;
+    }
+    h2.mission__header {
+        text-transform: capitalize;
+    }
+    img.about__right__img {
+        padding-top: 30px;
+    }
+}
